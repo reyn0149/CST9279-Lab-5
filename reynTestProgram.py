@@ -20,8 +20,6 @@ print("7: Quit")
 
 while inputInt != 7:
     inputString =input("Make a selection now! ")
-    if len(inputString) == 0:
-        inputString = "0"
     inputInt = int(inputString)
     if inputInt == 1:
         from reynGfxLibrary import displayVerticalLine
